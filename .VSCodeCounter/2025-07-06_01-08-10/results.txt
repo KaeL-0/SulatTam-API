@@ -1,0 +1,39 @@
+Date : 2025-07-06 01:08:10
+Directory : c:\xampp\htdocs\sulat_tam\api\gets
+Total : 14 files,  1028 codes, 3 comments, 260 blanks, all 1291 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| PHP      |         13 |      1,026 |          3 |        259 |      1,288 |
+| Log      |          1 |          2 |          0 |          1 |          3 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                               | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                  |         14 |      1,028 |          3 |        260 |      1,291 |
++--------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                           | language | code       | comment    | blank      | total      |
++--------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\xampp\htdocs\sulat_tam\api\gets\current_user_articles.php       | PHP      |         93 |          0 |         20 |        113 |
+| c:\xampp\htdocs\sulat_tam\api\gets\current_user_articles_count.php | PHP      |         59 |          0 |         18 |         77 |
+| c:\xampp\htdocs\sulat_tam\api\gets\current_user_info.php           | PHP      |         52 |          0 |         15 |         67 |
+| c:\xampp\htdocs\sulat_tam\api\gets\debug.log                       | Log      |          2 |          0 |          1 |          3 |
+| c:\xampp\htdocs\sulat_tam\api\gets\favorite_articles.php           | PHP      |         88 |          0 |         21 |        109 |
+| c:\xampp\htdocs\sulat_tam\api\gets\favorite_articles_count.php     | PHP      |         59 |          0 |         18 |         77 |
+| c:\xampp\htdocs\sulat_tam\api\gets\feed_articles.php               | PHP      |         88 |          1 |         21 |        110 |
+| c:\xampp\htdocs\sulat_tam\api\gets\feed_articles_count.php         | PHP      |         65 |          0 |         20 |         85 |
+| c:\xampp\htdocs\sulat_tam\api\gets\global_articles.php             | PHP      |         69 |          0 |         17 |         86 |
+| c:\xampp\htdocs\sulat_tam\api\gets\global_articles_count.php       | PHP      |         34 |          0 |         14 |         48 |
+| c:\xampp\htdocs\sulat_tam\api\gets\public_favorite_articles.php    | PHP      |        124 |          0 |         27 |        151 |
+| c:\xampp\htdocs\sulat_tam\api\gets\public_user_articles.php        | PHP      |        122 |          0 |         27 |        149 |
+| c:\xampp\htdocs\sulat_tam\api\gets\public_user_info.php            | PHP      |         58 |          1 |         18 |         77 |
+| c:\xampp\htdocs\sulat_tam\api\gets\public_view_article.php         | PHP      |        115 |          1 |         23 |        139 |
+| Total                                                              |          |      1,028 |          3 |        260 |      1,291 |
++--------------------------------------------------------------------+----------+------------+------------+------------+------------+
