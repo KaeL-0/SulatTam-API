@@ -132,12 +132,12 @@
 
     try {
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
+        $mail->Host = 'smtp-relay.brevo.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'sulat.tamaraw@gmail.com';
-        $mail->Password = 'lwkk jehn prvh asjm';
-        $mail->SMTPSecure = 'ssl';
-        $mail->Port = 465;
+        $mail->Username = '9290e6001@smtp-brevo.com';
+        $mail->Password = 'xsmtpsib-36e5314ea5ccece8d7a6de374866d116f681ee7a7782bc5004c012e848d1fa95-mMsrPcv4CzD5AFH8';
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port = 587;
 
         $mail->setFrom('sulat.tamaraw@gmail.com', 'SulatTam Website');
         $mail->addAddress($email);
