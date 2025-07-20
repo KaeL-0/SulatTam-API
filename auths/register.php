@@ -135,7 +135,7 @@
         $mail->Host = 'smtp-relay.brevo.com';
         $mail->SMTPAuth = true;
         $mail->Username = '9290e6001@smtp-brevo.com';
-        $mail->Password = 'xsmtpsib-36e5314ea5ccece8d7a6de374866d116f681ee7a7782bc5004c012e848d1fa95-mMsrPcv4CzD5AFH8';
+        $mail->Password = 'API Key';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
@@ -144,12 +144,14 @@
 
         $mail->isHTML(true);
         $mail->Subject = 'Verify Your SulatTam Account';
-        $mail->Body    = "
-            <h2>Welcome to SulatTam!</h2>
-            <p>Please click the link below to verify your email address:</p>
-            <p><a href='$verificationLink'>Verify My Email</a></p>
-            <p>If you didn't create this account, please ignore this email.</p>
+        $mail->Body = "
+            <p>Welcome to SulatTam!</p>
+            <p>Please verify your email address:</p>
+            <p><a href='$verificationLink'>Verify Email</a></p>
+            <p>If you didn't request this, ignore the message.</p>
         ";
+
+        $mail->AltBody = "Welcome to SulatTam!\nPlease verify your email: $verificationLink\nIf this wasn't you, ignore this email.";
 
         $mail->send();
 

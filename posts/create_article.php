@@ -102,9 +102,10 @@
     $pendingArticleId = $stmt->insert_id;
     $stmt->close();
 
-    // Handle tags
     if ($tags !== '') {
-        $tagList = array_filter(array_map('trim', explode(',', $tags)));
+        // Split by spaces and filter out empty strings
+        $tagList = array_filter(array_map('trim', preg_split('/\s+/', $tags)));
+        
         foreach ($tagList as $tagName) {
             if ($tagName === '') continue;
 
